@@ -3,7 +3,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'system_setting'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Flutter plugin for jumping to system settings.'
   s.description      = <<-DESC
 Flutter plugin for jumping to system settings.
@@ -16,7 +16,7 @@ Flutter plugin for jumping to system settings.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
   s.swift_version = '5.0'
 end
 
